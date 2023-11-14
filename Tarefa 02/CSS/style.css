@@ -1,0 +1,35 @@
+.row{
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+}
+
+.bi{
+    font-size: 50px;
+}
+
+.bi.bi-amazon{
+    color:gold;
+}
+
+.bi.bi-playstation{
+    color:blue;
+}
+
+.bi.bi-spotify{
+    color:green;
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.description h2{
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 0px;
+}
