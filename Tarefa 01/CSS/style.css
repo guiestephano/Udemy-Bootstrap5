@@ -1,0 +1,13 @@
+.col{
+    border: 3px solid #000;
+    height: 50px;
+    
+}
+
+.impar{
+    background-color: rgb(135, 204, 135);
+}
+
+.par{
+    background-color: rgb(66, 124, 66);
+}
