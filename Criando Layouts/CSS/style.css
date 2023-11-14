@@ -1,0 +1,22 @@
+.container{
+    background-color: #555;
+}
+
+.container-fluid{
+    background-color: #999;
+}
+
+.container-sm{
+    border: 2px solid blue;
+    margin-bottom: 30px;
+}
+
+.container-md{
+    border: 2px solid crimson;
+    margin-bottom: 30px;
+}
+
+.container-lg{
+    border: 2px solid chocolate;
+    margin-bottom: 30px;
+}
