@@ -1,0 +1,17 @@
+
+header{
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+figure{
+    margin: 50px 10px;
+}
