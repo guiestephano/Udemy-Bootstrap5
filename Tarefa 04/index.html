@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 04</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="container-fluid mb-5">
+        <div class="row justify-content-center text-center">
+            <h1 class="m-3">Cadastro de Produto</h1>
+            <div class="col col-md-6 ">
+                <p>Preencha o formulario para cadastrar o seu produto.</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form class="row row-cols-12 justify-content-center align-items-center g-5">
+            <div class="col-12 col-md-6">
+                <label for="titulo" class="form-label">Titulo:</label>
+                <input type="text" name="titulo" id="titulo" class="form-control" placeholder="Insira o nome do produto">
+            </div>
+            <div class="col-12 col-md-6">
+                <label for="valor" class="form-label">Preço:</label>
+                <div class="input-group">
+                    <span class="input-group-text">R$</span>
+                    <input type="text" name="valor" id="valor" class="form-control" placeholder="Insira o preço">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="row row-cols-12 g-2">
+                    <div class="col-12">
+                        <label for="categorias" class="form-label">Categoria:</label>
+                        <select class="form-select" id="categorias">
+                            <option  selected>Selecione um categoria...</option>
+                            <option value="1">Tecnologia</option>
+                            <option value="2">Vestuario</option>
+                            <option value="3">Alimento</option>
+                            <option value="4">Infantil</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="lojas" class="form-label">Loja:</label>
+                        <select class="form-select" id="lojas">
+                            <option  selected>Onde será vendido...</option>
+                            <option value="1">Loja 01</option>
+                            <option value="2">Loja 02</option>
+                            <option value="3">Loja 03</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-2">
+                <div class="form-check">
+                    <input type="checkbox" name="box" id="box" class="form-check-input">
+                    <label for="box">Em estoque</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="box" id="box" class="form-check-input">
+                    <label for="box">Lançamento</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="box" id="box" class="form-check-input">
+                    <label for="box">Edição limitada</label>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <label for="descricao" class="form-label">Descrição:</label>
+                <textarea name="descricao" id="descricao" class="form-control" placeholder="Digite a descrição do produto..." rows="5"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="row row-cols-12">
+                    <div class="col-12 col-md-6">
+                        <input type="submit" class="btn btn-primary" value="Cadastrar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
